@@ -1,11 +1,21 @@
 package com.fware.cspdt.cspm.editor.config;
 
 import org.eclipse.jface.text.*;
-
+/**
+ * Esta classe cria uma estrategia de acao para o clique duplo no codigo CSPM.
+ * 
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMDoubleClickStrategy implements ITextDoubleClickStrategy {
 
 	protected ITextViewer fText;
 
+	/**
+	 * Acao do clique duplo no editor de texto.
+	 * 
+	 * Esse metodo demarca o que sera selecionado no clique duplo.
+	 */
 	public void doubleClicked(ITextViewer part) {
 		int pos = part.getSelectedRange().x;
 

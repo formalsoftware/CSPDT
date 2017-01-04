@@ -1,0 +1,15 @@
+com.fware.cspdt.cspm
+com.fware.cspdt.cspm.core
+com.fware.cspdt.cspm.core.model
+com.fware.cspdt.cspm.core.parser
+com.fware.cspdt.cspm.editor
+com.fware.cspdt.cspm.editor.config
+com.fware.cspdt.cspm.editor.hover
+com.fware.cspdt.cspm.editor.link
+com.fware.cspdt.cspm.editor.marker
+com.fware.cspdt.cspm.editor.outline
+com.fware.cspdt.cspm.editor.partition
+com.fware.cspdt.cspm.editor.preferences
+com.fware.cspdt.cspm.editor.project
+com.fware.cspdt.cspm.editor.scanner
+com.fware.cspdt.cspm.editor.wizards

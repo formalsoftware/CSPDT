@@ -17,7 +17,11 @@ import lmf.formula.csp.node.ACspProcessDefinition;
 import lmf.formula.csp.node.ACspSpecification;
 import lmf.formula.csp.node.ACspSubtypeDefinition;
 import lmf.formula.csp.node.TName;
-
+/**
+ * Esta classe pretende distinguir as referencias pelos tipos da linguagem CSPM.
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMRefExtractor extends ExtendedDepthFirstAdapter {
 
 	private CspMModel info;

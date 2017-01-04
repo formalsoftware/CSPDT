@@ -1,0 +1,292 @@
+\hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin}{}\section{com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin Class Reference}
+\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin}\index{com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin@{com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin}}
+
+
+The activator class controls the plug-\/in life cycle.  
+
+
+Inheritance diagram for com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a132fdd00e0ab589fd1e0cf2469cb3b88}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a132fdd00e0ab589fd1e0cf2469cb3b88}} 
+\hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a132fdd00e0ab589fd1e0cf2469cb3b88}{Csp\+M\+Editor\+Plugin} ()
+\begin{DoxyCompactList}\small\item\em Constructs a new C\+SP S\+U\+I\+TE plugin object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a8bcd3b653eb143f50f9584e3ba6d426e}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a8bcd3b653eb143f50f9584e3ba6d426e}} 
+void {\bfseries start} (Bundle\+Context context)  throws Exception 
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_aec8977bf750ac404c55cf9e3998c0343}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_aec8977bf750ac404c55cf9e3998c0343}} 
+void {\bfseries stop} (Bundle\+Context context)  throws Exception 
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin}{Csp\+M\+Editor\+Plugin} \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a5809344c36c4947f0f4cbe01d7daf633}{get\+Default} ()
+\begin{DoxyCompactList}\small\item\em Returns the shared instance. \end{DoxyCompactList}\item 
+static String \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a3108b6f331629b6acb68b8f9e7987fd0}{get\+Plugin\+Id} ()
+\begin{DoxyCompactList}\small\item\em Returns the name of the plugin. \end{DoxyCompactList}\item 
+static String \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a7d802c2a09d9e2a3fd8c69f76485e19f}{get\+Preference} (String key)
+\begin{DoxyCompactList}\small\item\em Return a value from the plugin\textquotesingle{}s preferences. \end{DoxyCompactList}\item 
+static Image \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a617d7093508af7b8925513888ba9abaa}{get\+Image} (String name)
+\begin{DoxyCompactList}\small\item\em Return an image from the plugin\textquotesingle{}s icons-\/directory. \end{DoxyCompactList}\item 
+static Image\+Descriptor \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_ac421550bc116a9d99997fa22d1fd45ab}{get\+Image\+Descriptor} (String path)
+\begin{DoxyCompactList}\small\item\em Returns an image descriptor for the image file at the given plug-\/in relative path (from eclipse help). \end{DoxyCompactList}\item 
+static I\+Workbench\+Page \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a42cad1fb2c902c98a3e479bd45c6e0ab}{get\+Current\+Workbench\+Page} ()
+\begin{DoxyCompactList}\small\item\em Returns the current workbench page. \end{DoxyCompactList}\item 
+static I\+Status \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a5b396412e4eaff95c0edf8b65ea055fd}{stat} (String msg)
+\begin{DoxyCompactList}\small\item\em This is equivalent to calling {\ttfamily stat(msg, null)}. \end{DoxyCompactList}\item 
+static I\+Status \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a8f6c15a840760c132d98bbae18564db3}{stat} (String msg, Throwable t)
+\begin{DoxyCompactList}\small\item\em Create an error-\/level status object out of textual message. \end{DoxyCompactList}\item 
+static void \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a54650677eefb50d1f6f2a6ba7a76f81c}{log} (String msg, Throwable t)
+\begin{DoxyCompactList}\small\item\em Display a message in the Eclipse\textquotesingle{}s Error Log. \end{DoxyCompactList}\item 
+static void \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a2c4fa5b39642bfadc3af60a6ea74065c}{log} (String msg, Throwable t, int level)
+\begin{DoxyCompactList}\small\item\em Display a message in the Eclipse\textquotesingle{}s Error Log. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a52beb6e08f5faf5ef31066ebb304d825}{P\+L\+U\+G\+I\+N\+\_\+\+ID} = \char`\"{}Csp\+Suite\char`\"{}
+\begin{DoxyCompactList}\small\item\em The plug-\/in ID. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Image \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a2386db9ed985b9049c0ba90a3fbf8695}{get\+Cached\+Image} (String key)
+\begin{DoxyCompactList}\small\item\em Cache the image if it is found. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static I\+Workbench\+Window \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a00372fb921d6f5cc3ee5b79bb1fa065a}{current\+Window}
+\begin{DoxyCompactList}\small\item\em Used by the current project solving mechanism. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The activator class controls the plug-\/in life cycle. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a2386db9ed985b9049c0ba90a3fbf8695}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a2386db9ed985b9049c0ba90a3fbf8695}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!get\+Cached\+Image@{get\+Cached\+Image}}
+\index{get\+Cached\+Image@{get\+Cached\+Image}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{get\+Cached\+Image()}{getCachedImage()}}
+{\footnotesize\ttfamily Image com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+get\+Cached\+Image (\begin{DoxyParamCaption}\item[{String}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Cache the image if it is found. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Name of the image \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Image from the cache or from disk, null if image is not found in either. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a42cad1fb2c902c98a3e479bd45c6e0ab}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a42cad1fb2c902c98a3e479bd45c6e0ab}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!get\+Current\+Workbench\+Page@{get\+Current\+Workbench\+Page}}
+\index{get\+Current\+Workbench\+Page@{get\+Current\+Workbench\+Page}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{get\+Current\+Workbench\+Page()}{getCurrentWorkbenchPage()}}
+{\footnotesize\ttfamily static I\+Workbench\+Page com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+get\+Current\+Workbench\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Returns the current workbench page. 
+
+Used by get\+Current\+Project() and by goto\+Marker().
+
+\begin{DoxyReturn}{Returns}
+The currently open Workbench\+Page or {\ttfamily null} if none 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a5809344c36c4947f0f4cbe01d7daf633}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a5809344c36c4947f0f4cbe01d7daf633}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!get\+Default@{get\+Default}}
+\index{get\+Default@{get\+Default}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{get\+Default()}{getDefault()}}
+{\footnotesize\ttfamily static \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin}{Csp\+M\+Editor\+Plugin} com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+get\+Default (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Returns the shared instance. 
+
+\begin{DoxyReturn}{Returns}
+the shared instance 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a617d7093508af7b8925513888ba9abaa}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a617d7093508af7b8925513888ba9abaa}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!get\+Image@{get\+Image}}
+\index{get\+Image@{get\+Image}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{get\+Image()}{getImage()}}
+{\footnotesize\ttfamily static Image com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+get\+Image (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Return an image from the plugin\textquotesingle{}s icons-\/directory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name of the icon \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The icon as an image object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_ac421550bc116a9d99997fa22d1fd45ab}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_ac421550bc116a9d99997fa22d1fd45ab}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!get\+Image\+Descriptor@{get\+Image\+Descriptor}}
+\index{get\+Image\+Descriptor@{get\+Image\+Descriptor}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{get\+Image\+Descriptor()}{getImageDescriptor()}}
+{\footnotesize\ttfamily static Image\+Descriptor com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+get\+Image\+Descriptor (\begin{DoxyParamCaption}\item[{String}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Returns an image descriptor for the image file at the given plug-\/in relative path (from eclipse help). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Relative path of the image. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The corresponding image descriptor or {\ttfamily Missing\+Image\+Descriptor} if none is found. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a3108b6f331629b6acb68b8f9e7987fd0}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a3108b6f331629b6acb68b8f9e7987fd0}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!get\+Plugin\+Id@{get\+Plugin\+Id}}
+\index{get\+Plugin\+Id@{get\+Plugin\+Id}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{get\+Plugin\+Id()}{getPluginId()}}
+{\footnotesize\ttfamily static String com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+get\+Plugin\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Returns the name of the plugin. 
+
+Used by project creation wizard.
+
+\begin{DoxyReturn}{Returns}
+Unique id of this plugin 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a7d802c2a09d9e2a3fd8c69f76485e19f}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a7d802c2a09d9e2a3fd8c69f76485e19f}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!get\+Preference@{get\+Preference}}
+\index{get\+Preference@{get\+Preference}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{get\+Preference()}{getPreference()}}
+{\footnotesize\ttfamily static String com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+get\+Preference (\begin{DoxyParamCaption}\item[{String}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Return a value from the plugin\textquotesingle{}s preferences. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Preference name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value of the named preference 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a54650677eefb50d1f6f2a6ba7a76f81c}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a54650677eefb50d1f6f2a6ba7a76f81c}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!log@{log}}
+\index{log@{log}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{log()}{log()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static void com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+log (\begin{DoxyParamCaption}\item[{String}]{msg,  }\item[{Throwable}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Display a message in the Eclipse\textquotesingle{}s Error Log. 
+
+This is equivalent to calling {\ttfamily log(msg, t, I\+Status.\+E\+R\+R\+OR)}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & Error message to display in error log \\
+\hline
+{\em t} & Exception \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a2c4fa5b39642bfadc3af60a6ea74065c}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a2c4fa5b39642bfadc3af60a6ea74065c}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!log@{log}}
+\index{log@{log}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{log()}{log()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static void com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+log (\begin{DoxyParamCaption}\item[{String}]{msg,  }\item[{Throwable}]{t,  }\item[{int}]{level }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Display a message in the Eclipse\textquotesingle{}s Error Log. 
+
+Used by e.\+g. the project creation wizard.
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & Error message \\
+\hline
+{\em t} & Exception \\
+\hline
+{\em level} & One of the error levels defined in the {\ttfamily I\+Status} -\/interface \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a5b396412e4eaff95c0edf8b65ea055fd}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a5b396412e4eaff95c0edf8b65ea055fd}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!stat@{stat}}
+\index{stat@{stat}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{stat()}{stat()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static I\+Status com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+stat (\begin{DoxyParamCaption}\item[{String}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+This is equivalent to calling {\ttfamily stat(msg, null)}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & Error message to display in error log \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+New Error-\/level status message 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a8f6c15a840760c132d98bbae18564db3}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a8f6c15a840760c132d98bbae18564db3}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!stat@{stat}}
+\index{stat@{stat}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{stat()}{stat()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static I\+Status com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+stat (\begin{DoxyParamCaption}\item[{String}]{msg,  }\item[{Throwable}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Create an error-\/level status object out of textual message. 
+
+These status-\/objects are needed when creating new Core\+Exceptions. Used by e.\+g. the project creation wizard.
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & Error message to display in error log \\
+\hline
+{\em t} & Exception \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+New error-\/level status message 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a00372fb921d6f5cc3ee5b79bb1fa065a}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a00372fb921d6f5cc3ee5b79bb1fa065a}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!current\+Window@{current\+Window}}
+\index{current\+Window@{current\+Window}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{current\+Window}{currentWindow}}
+{\footnotesize\ttfamily I\+Workbench\+Window com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+current\+Window\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Used by the current project solving mechanism. 
+
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a52beb6e08f5faf5ef31066ebb304d825}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor_plugin_a52beb6e08f5faf5ef31066ebb304d825}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}!P\+L\+U\+G\+I\+N\+\_\+\+ID@{P\+L\+U\+G\+I\+N\+\_\+\+ID}}
+\index{P\+L\+U\+G\+I\+N\+\_\+\+ID@{P\+L\+U\+G\+I\+N\+\_\+\+ID}!com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin@{com\+::fware\+::cspdt\+::cspm\+::editor\+::\+Csp\+M\+Editor\+Plugin}}
+\subsubsection{\texorpdfstring{P\+L\+U\+G\+I\+N\+\_\+\+ID}{PLUGIN\_ID}}
+{\footnotesize\ttfamily final String com.\+fware.\+cspdt.\+cspm.\+editor.\+Csp\+M\+Editor\+Plugin.\+P\+L\+U\+G\+I\+N\+\_\+\+ID = \char`\"{}Csp\+Suite\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The plug-\/in ID. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+E\+V\+A/\+Downloads/eclipse/workspace/cspdt/com.\+fware.\+cspdt.\+cspm.\+editor/src/com/fware/cspdt/cspm/editor/Csp\+M\+Editor\+Plugin.\+java\end{DoxyCompactItemize}

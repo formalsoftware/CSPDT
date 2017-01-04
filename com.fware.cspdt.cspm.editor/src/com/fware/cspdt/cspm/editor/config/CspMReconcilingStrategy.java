@@ -11,6 +11,12 @@ import org.eclipse.jface.text.reconciler.IReconcilingStrategy;
 
 import com.fware.cspdt.cspm.editor.CspMEditor;
 
+/**
+ * Esta classe cria uma estrategia de acao para a representacao do texto na presenca de mudancas no codigo CSPM.
+ * 
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMReconcilingStrategy implements IReconcilingStrategy {
 
 	private CspMEditor editor;
@@ -34,6 +40,9 @@ public class CspMReconcilingStrategy implements IReconcilingStrategy {
 		return editor;
 	}
 
+	/**
+	 * Verifica inicio e fim da mudanca no texto.
+	 */
 	public void initialReconcile() {
 		fOffset = 0;
 		fRangeEnd = fDocument.getLength();

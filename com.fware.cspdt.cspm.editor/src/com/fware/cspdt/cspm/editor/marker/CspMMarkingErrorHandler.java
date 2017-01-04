@@ -19,7 +19,11 @@ import lmf.formula.csp.semantic.CspAnalyserListener;
 import lmf.formula.csp.semantic.exception.CspAnalyserException;
 import lmf.formula.csp.util.CspNodeLocator;
 import lmf.formula.csp.util.Location;
-
+/**
+ * Nesta classe contém a  configuracao da marcacao de erros no codigo.
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMMarkingErrorHandler implements CspAnalyserListener {
 
 	public static final String ERROR_MARKER_ID = CspMEditorPlugin.PLUGIN_ID + ".cspmproblem";
@@ -36,6 +40,9 @@ public class CspMMarkingErrorHandler implements CspAnalyserListener {
 		document = editor.getDocumentProvider().getDocument(editorInput);
 	}
 
+	/**
+	 * Este metodo tem a funcao de apagar todos os marcadores atuais no codigo.
+	 */
 	public void removeExistingMarkers() {
 		try {
 			//file.deleteMarkers(ERROR_MARKER_ID, true, IResource.DEPTH_ZERO);

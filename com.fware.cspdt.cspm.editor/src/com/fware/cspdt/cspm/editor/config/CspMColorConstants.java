@@ -1,7 +1,11 @@
 package com.fware.cspdt.cspm.editor.config;
 
 import org.eclipse.swt.graphics.RGB;
-
+/**
+ * enumeracao das cores da sintaxe highlight
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public enum CspMColorConstants {
 
 	DEFAULT(new RGB(0, 0, 1)),	

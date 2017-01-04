@@ -1,0 +1,128 @@
+\hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer}{}\section{com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Non\+Rule\+Based\+Damager\+Repairer Class Reference}
+\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer}\index{com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Non\+Rule\+Based\+Damager\+Repairer@{com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Non\+Rule\+Based\+Damager\+Repairer}}
+
+
+Esta classe e definida para aplicar a devida coloracao no texto sem precisar de regras.  
+
+
+Inheritance diagram for com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Non\+Rule\+Based\+Damager\+Repairer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.372549cm]{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_af36e6a07ac9c5ed46856284f25b72811}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_af36e6a07ac9c5ed46856284f25b72811}} 
+\hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_af36e6a07ac9c5ed46856284f25b72811}{Non\+Rule\+Based\+Damager\+Repairer} (Text\+Attribute default\+Text\+Attribute)
+\begin{DoxyCompactList}\small\item\em Constructor for \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer}{Non\+Rule\+Based\+Damager\+Repairer}. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_ae8015f432b2c8182cc3f981999a0874a}{set\+Document} (I\+Document document)
+\item 
+I\+Region \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a6916df3bc6d3838ac23b4bdc7ab3799c}{get\+Damage\+Region} (I\+Typed\+Region partition, Document\+Event event, boolean document\+Partitioning\+Changed)
+\item 
+void \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a502091b5e822b3d552cb1a3fad459d8b}{create\+Presentation} (Text\+Presentation presentation, I\+Typed\+Region region)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a3e3084dfd0d0995dee91f6a2c23ee43e}{end\+Of\+Line\+Of} (int offset)  throws Bad\+Location\+Exception 
+\begin{DoxyCompactList}\small\item\em Returns the end offset of the line that contains the specified offset or if the offset is inside a line delimiter, the end offset of the next line. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a0fed10472da4fc71c06b37826c25b247}{add\+Range} (Text\+Presentation presentation, int offset, int length, Text\+Attribute attr)
+\begin{DoxyCompactList}\small\item\em Adds style information to the given text presentation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a295dc05aa1d1c74b90f2b23ebd345c59}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a295dc05aa1d1c74b90f2b23ebd345c59}} 
+I\+Document \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a295dc05aa1d1c74b90f2b23ebd345c59}{f\+Document}
+\begin{DoxyCompactList}\small\item\em The document this object works on. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a259b7a776b8451c81d1ad57f536056c4}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a259b7a776b8451c81d1ad57f536056c4}} 
+Text\+Attribute \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a259b7a776b8451c81d1ad57f536056c4}{f\+Default\+Text\+Attribute}
+\begin{DoxyCompactList}\small\item\em The default text attribute if non is returned as data by the current token. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Esta classe e definida para aplicar a devida coloracao no texto sem precisar de regras. 
+
+\begin{DoxyAuthor}{Author}
+A\+L\+V\+A\+RO, E\+V\+E\+R\+A\+L\+DA, F\+E\+L\+I\+PE, J\+O\+N\+A\+T\+H\+AN, J\+U\+V\+E\+N\+AL 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a0fed10472da4fc71c06b37826c25b247}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a0fed10472da4fc71c06b37826c25b247}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer@{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer}!add\+Range@{add\+Range}}
+\index{add\+Range@{add\+Range}!com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer@{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer}}
+\subsubsection{\texorpdfstring{add\+Range()}{addRange()}}
+{\footnotesize\ttfamily void com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Non\+Rule\+Based\+Damager\+Repairer.\+add\+Range (\begin{DoxyParamCaption}\item[{Text\+Presentation}]{presentation,  }\item[{int}]{offset,  }\item[{int}]{length,  }\item[{Text\+Attribute}]{attr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Adds style information to the given text presentation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em presentation} & the text presentation to be extended \\
+\hline
+{\em offset} & the offset of the range to be styled \\
+\hline
+{\em length} & the length of the range to be styled \\
+\hline
+{\em attr} & the attribute describing the style of the range to be styled \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a502091b5e822b3d552cb1a3fad459d8b}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a502091b5e822b3d552cb1a3fad459d8b}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer@{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer}!create\+Presentation@{create\+Presentation}}
+\index{create\+Presentation@{create\+Presentation}!com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer@{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer}}
+\subsubsection{\texorpdfstring{create\+Presentation()}{createPresentation()}}
+{\footnotesize\ttfamily void com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Non\+Rule\+Based\+Damager\+Repairer.\+create\+Presentation (\begin{DoxyParamCaption}\item[{Text\+Presentation}]{presentation,  }\item[{I\+Typed\+Region}]{region }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxySeeAlso}{See also}
+I\+Presentation\+Repairer\+::create\+Presentation(Text\+Presentation, I\+Typed\+Region) 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a3e3084dfd0d0995dee91f6a2c23ee43e}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a3e3084dfd0d0995dee91f6a2c23ee43e}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer@{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer}!end\+Of\+Line\+Of@{end\+Of\+Line\+Of}}
+\index{end\+Of\+Line\+Of@{end\+Of\+Line\+Of}!com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer@{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer}}
+\subsubsection{\texorpdfstring{end\+Of\+Line\+Of()}{endOfLineOf()}}
+{\footnotesize\ttfamily int com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Non\+Rule\+Based\+Damager\+Repairer.\+end\+Of\+Line\+Of (\begin{DoxyParamCaption}\item[{int}]{offset }\end{DoxyParamCaption}) throws Bad\+Location\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Returns the end offset of the line that contains the specified offset or if the offset is inside a line delimiter, the end offset of the next line. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em offset} & the offset whose line end offset must be computed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the line end offset for the given offset 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Bad\+Location\+Exception} & if offset is invalid in the current document \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a6916df3bc6d3838ac23b4bdc7ab3799c}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_a6916df3bc6d3838ac23b4bdc7ab3799c}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer@{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer}!get\+Damage\+Region@{get\+Damage\+Region}}
+\index{get\+Damage\+Region@{get\+Damage\+Region}!com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer@{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer}}
+\subsubsection{\texorpdfstring{get\+Damage\+Region()}{getDamageRegion()}}
+{\footnotesize\ttfamily I\+Region com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Non\+Rule\+Based\+Damager\+Repairer.\+get\+Damage\+Region (\begin{DoxyParamCaption}\item[{I\+Typed\+Region}]{partition,  }\item[{Document\+Event}]{event,  }\item[{boolean}]{document\+Partitioning\+Changed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxySeeAlso}{See also}
+I\+Presentation\+Damager\+::get\+Damage\+Region(I\+Typed\+Region, Document\+Event, boolean) 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_ae8015f432b2c8182cc3f981999a0874a}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_non_rule_based_damager_repairer_ae8015f432b2c8182cc3f981999a0874a}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer@{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer}!set\+Document@{set\+Document}}
+\index{set\+Document@{set\+Document}!com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer@{com\+::fware\+::cspdt\+::cspm\+::editor\+::config\+::\+Non\+Rule\+Based\+Damager\+Repairer}}
+\subsubsection{\texorpdfstring{set\+Document()}{setDocument()}}
+{\footnotesize\ttfamily void com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Non\+Rule\+Based\+Damager\+Repairer.\+set\+Document (\begin{DoxyParamCaption}\item[{I\+Document}]{document }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxySeeAlso}{See also}
+I\+Presentation\+Repairer\+::set\+Document(\+I\+Document) 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+E\+V\+A/\+Downloads/eclipse/workspace/cspdt/com.\+fware.\+cspdt.\+cspm.\+editor/src/com/fware/cspdt/cspm/editor/config/Non\+Rule\+Based\+Damager\+Repairer.\+java\end{DoxyCompactItemize}
