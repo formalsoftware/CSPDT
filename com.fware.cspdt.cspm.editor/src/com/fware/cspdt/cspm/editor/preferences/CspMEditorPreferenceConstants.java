@@ -4,7 +4,10 @@ import com.fware.cspdt.cspm.editor.CspMEditorPlugin;
 import com.fware.cspdt.cspm.editor.config.CspMColorConstants;
 
 /**
- * Constant definitions for plug-in preferences
+ * Constant definitions for plug-in preferences.
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  */
 public interface CspMEditorPreferenceConstants {
 

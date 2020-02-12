@@ -8,6 +8,9 @@ import com.fware.cspdt.cspm.editor.config.CspMColorConstants;
 
 /**
  * Class used to initialize default preference values.
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  */
 public class CspMEditorPreferenceInitializer extends AbstractPreferenceInitializer {
 

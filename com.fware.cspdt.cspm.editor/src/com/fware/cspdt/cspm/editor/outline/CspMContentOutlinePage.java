@@ -12,7 +12,15 @@ import org.eclipse.ui.IEditorInput;
 import org.eclipse.ui.views.contentoutline.ContentOutlinePage;
 
 import com.fware.cspdt.cspm.editor.CspMEditor;
-
+/**
+ * Esta classe define um Provider que sera responsavel pelo modelo utilizado
+ * para definicao do vizualizador e tambem por propagar atualizacoes.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMContentOutlinePage extends ContentOutlinePage {
 
 	private CspMEditor editor;	
@@ -51,7 +59,9 @@ public class CspMContentOutlinePage extends ContentOutlinePage {
 	// new ReadmeContentOutlineDragListener(this));
 	//
 	// }
-
+/**
+ * Atualiza os conteudos presentes no outline (visualizacao em arvore) do codigo.
+ */
 	public void update() {
 		IEditorInput editorInput = editor.getEditorInput();
 		TreeViewer viewer = getTreeViewer();

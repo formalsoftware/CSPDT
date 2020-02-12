@@ -17,6 +17,9 @@ import org.osgi.framework.BundleContext;
 
 /**
  * The activator class controls the plug-in life cycle
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  */
 public class CspMEditorPlugin extends AbstractUIPlugin {
 

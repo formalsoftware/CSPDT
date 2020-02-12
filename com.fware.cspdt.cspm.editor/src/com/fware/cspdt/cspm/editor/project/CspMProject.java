@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * This class represents a project. It contains all the values that a project
  * has. These values can be changed in the new project wizard.
- * 
+ *
  * @author Joabe Jesus
  */
 public class CspMProject {

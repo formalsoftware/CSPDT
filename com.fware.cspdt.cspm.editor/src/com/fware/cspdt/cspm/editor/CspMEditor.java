@@ -38,6 +38,10 @@ import lmf.formula.csp.node.Start;
 import lmf.formula.csp.semantic.exception.CspAnalyserException;
 
 /**
+ * Editor de texto para o CSPM.
+ * 
+ * Descreve o ambiente onde os codigos CSPM serao escritos
+ * 
  * @author Joabe Jesus (jbjj@cin.ufpe.br)
  */
 public class CspMEditor extends TextEditor implements IEditorPart {
@@ -116,6 +120,9 @@ public class CspMEditor extends TextEditor implements IEditorPart {
 		return cspMultiLineCommentScanner;
 	}
 
+	/**
+	 * @see org.eclipse.ui.editors.text.TextEditor#getAdapter()
+	 */
 	@SuppressWarnings("rawtypes")
 	public Object getAdapter(Class required) {
 		if (IContentOutlinePage.class.equals(required)) {
@@ -164,6 +171,14 @@ public class CspMEditor extends TextEditor implements IEditorPart {
 		return new CspMParser();
 	}
 
+	/**
+	 * Metodo responsavel para a geracao da arvore sintatica (AST).
+	 * 
+	 * Este metodo executa o getInfo() do CspMParser que gera a AST
+	 * e tambem faz a geracao de marcadores de erro no codigo.
+	 * 
+	 * @return O modelo criado pela analise do codigo
+	 */
 	public CspMModel parse() {
 		CspMMarkingErrorHandler markingErrorHandler = getMarkingErrorHandler();
 		try {

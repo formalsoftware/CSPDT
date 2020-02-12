@@ -24,8 +24,10 @@ import org.eclipse.ui.dialogs.ContainerSelectionDialog;
  * The "New" wizard page allows setting the container for the new file as well
  * as the file name. The page will only accept file name without the extension
  * OR with the extension that matches the expected one (mpe).
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  */
-
 public class CspMNewFileWizardPage extends WizardPage {
 	private Text containerText;
 

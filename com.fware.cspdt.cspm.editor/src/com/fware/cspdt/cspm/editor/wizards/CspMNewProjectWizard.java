@@ -15,6 +15,10 @@ import org.eclipse.ui.wizards.newresource.BasicNewProjectResourceWizard;
 
 import com.fware.cspdt.cspm.editor.project.CspMProject;
 
+/**
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ */
 public class CspMNewProjectWizard extends Wizard implements INewWizard, IExecutableExtension {
 
 	private CspMProject project;

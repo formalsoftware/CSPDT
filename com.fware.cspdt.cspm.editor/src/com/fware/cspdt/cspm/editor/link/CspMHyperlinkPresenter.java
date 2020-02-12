@@ -13,7 +13,16 @@ import org.eclipse.swt.graphics.RGB;
 import org.eclipse.swt.widgets.Display;
 
 import com.fware.cspdt.cspm.editor.CspMEditor;
-
+/**
+ * Nesta classe serao configuradas as caracteristicas do browsing.
+ * 
+ *  Entre estas caracteristicas estao a delimitacao e sublinhamento da regiao que foi clicada.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMHyperlinkPresenter extends DefaultHyperlinkPresenter {
 	
 	Region range = null;

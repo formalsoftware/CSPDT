@@ -1,0 +1,83 @@
+\hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1parser_1_1_csp_m_parser}{}\section{com.\+fware.\+cspdt.\+cspm.\+core.\+parser.\+Csp\+M\+Parser Class Reference}
+\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1parser_1_1_csp_m_parser}\index{com.\+fware.\+cspdt.\+cspm.\+core.\+parser.\+Csp\+M\+Parser@{com.\+fware.\+cspdt.\+cspm.\+core.\+parser.\+Csp\+M\+Parser}}
+
+
+Uma classe para usar a analise lexica e sintatica do codigo C\+SP.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1model_1_1_csp_m_model}{Csp\+M\+Model} \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1parser_1_1_csp_m_parser_abcd9ef2aecf9c7a1de12da310357e831}{get\+Info} (I\+File file, Csp\+Analyser\+Listener analyser)  throws Csp\+M\+Parser\+Exception, Csp\+Analyser\+Exception 
+\begin{DoxyCompactList}\small\item\em Metodo para analise do codigo. \end{DoxyCompactList}\item 
+\hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1model_1_1_csp_m_model}{Csp\+M\+Model} \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1parser_1_1_csp_m_parser_a4fb399c8ac1c19c8b089f3021cf56986}{parse} (I\+File file, Csp\+Analyser\+Listener listener, boolean stop\+On\+Error, boolean debugging)
+\begin{DoxyCompactList}\small\item\em Metodo para analise do arquivo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Uma classe para usar a analise lexica e sintatica do codigo C\+SP. 
+
+\begin{DoxyAuthor}{Author}
+A\+L\+V\+A\+RO, E\+V\+E\+R\+A\+L\+DA, F\+E\+L\+I\+PE, J\+O\+N\+A\+T\+H\+AN, J\+U\+V\+E\+N\+AL 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1parser_1_1_csp_m_parser_abcd9ef2aecf9c7a1de12da310357e831}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1parser_1_1_csp_m_parser_abcd9ef2aecf9c7a1de12da310357e831}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::core\+::parser\+::\+Csp\+M\+Parser@{com\+::fware\+::cspdt\+::cspm\+::core\+::parser\+::\+Csp\+M\+Parser}!get\+Info@{get\+Info}}
+\index{get\+Info@{get\+Info}!com\+::fware\+::cspdt\+::cspm\+::core\+::parser\+::\+Csp\+M\+Parser@{com\+::fware\+::cspdt\+::cspm\+::core\+::parser\+::\+Csp\+M\+Parser}}
+\subsubsection{\texorpdfstring{get\+Info()}{getInfo()}}
+{\footnotesize\ttfamily \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1model_1_1_csp_m_model}{Csp\+M\+Model} com.\+fware.\+cspdt.\+cspm.\+core.\+parser.\+Csp\+M\+Parser.\+get\+Info (\begin{DoxyParamCaption}\item[{I\+File}]{file,  }\item[{Csp\+Analyser\+Listener}]{analyser }\end{DoxyParamCaption}) throws \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1parser_1_1_csp_m_parser_exception}{Csp\+M\+Parser\+Exception}, Csp\+Analyser\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo para analise do codigo. 
+
+Caso o arquivo ja tenha sido processado, retorna o modelo gerado na analise. Caso contrario, ele analisa o codigo e gera o modelo para retornar.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & arquivo contendo o codigo \\
+\hline
+{\em analyser} & um listener para coletar erros\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o modelo de dados gerado
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1parser_1_1_csp_m_parser_exception}{Csp\+M\+Parser\+Exception}} & caso ocorra algum erro sintatico\\
+\hline
+{\em Csp\+Analyser\+Exception} & caso ocorra algum erro lexico \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1parser_1_1_csp_m_parser_a4fb399c8ac1c19c8b089f3021cf56986}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1parser_1_1_csp_m_parser_a4fb399c8ac1c19c8b089f3021cf56986}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::core\+::parser\+::\+Csp\+M\+Parser@{com\+::fware\+::cspdt\+::cspm\+::core\+::parser\+::\+Csp\+M\+Parser}!parse@{parse}}
+\index{parse@{parse}!com\+::fware\+::cspdt\+::cspm\+::core\+::parser\+::\+Csp\+M\+Parser@{com\+::fware\+::cspdt\+::cspm\+::core\+::parser\+::\+Csp\+M\+Parser}}
+\subsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1core_1_1model_1_1_csp_m_model}{Csp\+M\+Model} com.\+fware.\+cspdt.\+cspm.\+core.\+parser.\+Csp\+M\+Parser.\+parse (\begin{DoxyParamCaption}\item[{I\+File}]{file,  }\item[{Csp\+Analyser\+Listener}]{listener,  }\item[{boolean}]{stop\+On\+Error,  }\item[{boolean}]{debugging }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Metodo para analise do arquivo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & arquivo contendo o codigo \\
+\hline
+{\em listener} & um listener para coletar erros \\
+\hline
+{\em stop\+On\+Error} & \\
+\hline
+{\em debugging} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o modelo de dados gerado 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+E\+V\+A/\+Downloads/eclipse/workspace/cspdt/com.\+fware.\+cspdt.\+cspm.\+core/src/com/fware/cspdt/cspm/core/parser/Csp\+M\+Parser.\+java\end{DoxyCompactItemize}

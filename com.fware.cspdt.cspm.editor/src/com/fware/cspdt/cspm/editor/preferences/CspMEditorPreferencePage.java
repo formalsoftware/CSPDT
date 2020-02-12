@@ -10,7 +10,14 @@ import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.IWorkbenchPreferencePage;
 
 import com.fware.cspdt.cspm.editor.CspMEditorPlugin;
-
+/**
+ * Esta classe foi criada com a finalidade de definir uma pagina no menu de preferencias do Eclipse.
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMEditorPreferencePage extends FieldEditorPreferencePage implements IWorkbenchPreferencePage {
 
 	public CspMEditorPreferencePage() {

@@ -34,6 +34,16 @@ import com.fware.cspdt.cspm.editor.preferences.CspMEditorPreferenceConstants;
 //import com.fware.cspdt.cspm.editor.preferences.CspMEditorPreferenceConstants;
 import com.fware.cspdt.cspm.editor.scanner.CspMScanner;
 
+/**
+ *  Nesta classe s�o definidas as configuracoes de vizualizacao do codigo.
+ *  
+ *  Ela quarda configuracoes do auto complete, sintax highlight entre outros.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMSourceViewerConfiguration extends TextSourceViewerConfiguration {
 
 	private CspMEditor editor;

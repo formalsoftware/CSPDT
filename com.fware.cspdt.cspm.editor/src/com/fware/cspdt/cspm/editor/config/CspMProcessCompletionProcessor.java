@@ -19,7 +19,14 @@ import com.fware.cspdt.cspm.core.model.CspMModel;
 import com.fware.cspdt.cspm.core.model.CspMRef;
 import com.fware.cspdt.cspm.editor.CspMEditor;
 import com.fware.cspdt.cspm.editor.link.CspMRefExtractor;
-
+/**
+ * Esta classe define as acoes de auto complete.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMProcessCompletionProcessor implements IContentAssistProcessor {
 	private final IContextInformation[] NO_CONTEXTS = {};
 	private final char[] PROPOSAL_ACTIVATION_CHARS = { 's', 'f', 'p', 'n', 'm', '.'};
@@ -32,7 +39,9 @@ public class CspMProcessCompletionProcessor implements IContentAssistProcessor {
 	public CspMProcessCompletionProcessor (CspMEditor editor) {
 		this.editor = editor;
 	}
-	
+	/**
+	 * Este metodo e o responsavel por fornecer o conjunto de sugestoes de acordo com a posicao do cursor.
+	 */
 	public ICompletionProposal[] computeCompletionProposals(ITextViewer viewer, int offset) {
 		info = editor.parse();
 		
@@ -121,7 +130,11 @@ public class CspMProcessCompletionProcessor implements IContentAssistProcessor {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
+	/**
+	 * Classe reponsavel pela comparacao de propostas.
+	 * @author EVA, ALVARO
+	 *
+	 */
 	static class KeywordsComparator implements Comparator<ICompletionProposal>
 	 {
 	     public int compare(ICompletionProposal k1, ICompletionProposal k2)

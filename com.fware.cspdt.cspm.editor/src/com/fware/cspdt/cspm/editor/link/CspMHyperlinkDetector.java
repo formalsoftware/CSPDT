@@ -16,7 +16,14 @@ import org.eclipse.jface.text.hyperlink.IHyperlinkDetector;
 import com.fware.cspdt.cspm.core.model.CspMModel;
 import com.fware.cspdt.cspm.core.model.CspMRef;
 import com.fware.cspdt.cspm.editor.CspMEditor;
-
+/**
+ * Esta classe define os pontos que servem de destino para a navegacao.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMHyperlinkDetector implements IHyperlinkDetector {
 
 	private CspMEditor editor;
@@ -113,7 +120,7 @@ public class CspMHyperlinkDetector implements IHyperlinkDetector {
 		return text;
 	}
 
-	// PEGA O CONTEUDO DA REGION E COMPARA COM AS DEFINIÇÕES DO DOCUMENTO
+	// PEGA O CONTEUDO DA REGION E COMPARA COM AS DEFINIï¿½ï¿½ES DO DOCUMENTO
 	private IHyperlink createHyperLink(IDocument document, IRegion region, LinkedList<CspMRef> refs) {
 		IHyperlink link = null;
 		String key = this.getTextFromRegion(region, document);

@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: CSPM
+Bundle-Name: CSPDT - CSPM
 Bundle-SymbolicName: com.fware.cspdt.cspm
 Bundle-Version: 1.0.0.20121128
 Bundle-Activator: com.fware.cspdt.cspm.CspMPlugin

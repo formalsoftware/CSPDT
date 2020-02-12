@@ -14,7 +14,14 @@ import com.fware.cspdt.cspm.core.model.CspMModel;
 import com.fware.cspdt.cspm.editor.CspMEditor;
 
 import lmf.formula.csp.node.Start;
-
+/**
+ * Esta classe e reponsavel por montar a estrutura da arvore que sera exibido na tela.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMOutlineContentProvider extends TreeNodeContentProvider {
 	
 	protected final static String SEGMENTS = "__csp_segments";
@@ -55,6 +62,9 @@ public class CspMOutlineContentProvider extends TreeNodeContentProvider {
 		}
 	}
 
+	/**
+	 * Atualiza os conteudos presentes na arvore do codigo.
+	 */
 	private void update(IDocument document, TreeViewer treeViewer) {
 		//String text = document.get();
 		rootNode = null;
@@ -73,7 +83,7 @@ public class CspMOutlineContentProvider extends TreeNodeContentProvider {
 			
 			rootNode = outlineGen.getRootNode();
 		} else {
-			rootNode = new TreeNode("Problema na criação do outline!");
+			rootNode = new TreeNode("Problema na criaï¿½ï¿½o do outline!");
 		}
 	}
 

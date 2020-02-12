@@ -17,6 +17,14 @@ import com.fware.cspdt.cspm.editor.config.CspMColorManager;
 import com.fware.cspdt.cspm.editor.config.Keywords;
 import com.fware.cspdt.cspm.editor.preferences.CspMEditorPreferenceConstants;
 
+/**
+ * Nesta classe sao definidas as palavras chaves do CSPM.
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMScanner extends RuleBasedScanner {
 
 	private WordRule processRule;
@@ -68,7 +76,11 @@ public class CspMScanner extends RuleBasedScanner {
 		setDefaultReturnToken(defaultToken);
 		setRules(rules);
 	}
-
+/**
+ * Classe responsavel por adicionar um nome de processo, definido em codigo
+ * ao conjunto de tokens conhecidos.
+ * @param processName
+ */
 	public void addProcess(String processName) {
 		if (processName != null && !"".equals(processName)) {
 			processRule.addWord(processName, processesToken);

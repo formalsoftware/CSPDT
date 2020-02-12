@@ -9,7 +9,16 @@ import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.jface.operation.IRunnableWithProgress;
 
 import com.fware.cspdt.cspm.editor.project.CspMProject;
-
+/**
+ * Esta classe possui a estrategia de acao na criacao de um projeto CSPM.
+ * 
+ * Ele cria diretorio e arquivos necessarios. Alem de exibir uma barra de progresso.
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMNewProjectOperation implements IRunnableWithProgress {
 
 	private CspMProject project;

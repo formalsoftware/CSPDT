@@ -2,6 +2,10 @@ package com.fware.cspdt.cspm.editor.scanner;
 
 import org.eclipse.jface.text.rules.IWhitespaceDetector;
 
+/**
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ */
 public class CspWhitespaceDetector implements IWhitespaceDetector {
 
 	/**

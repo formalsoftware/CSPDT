@@ -1,0 +1,62 @@
+\hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard}{}\section{com.\+fware.\+cspdt.\+cspm.\+editor.\+wizards.\+Csp\+M\+New\+File\+Wizard Class Reference}
+\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard}\index{com.\+fware.\+cspdt.\+cspm.\+editor.\+wizards.\+Csp\+M\+New\+File\+Wizard@{com.\+fware.\+cspdt.\+cspm.\+editor.\+wizards.\+Csp\+M\+New\+File\+Wizard}}
+
+
+This is a sample new wizard.  
+
+
+Inheritance diagram for com.\+fware.\+cspdt.\+cspm.\+editor.\+wizards.\+Csp\+M\+New\+File\+Wizard\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.595442cm]{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_ae414a510ec5ecf2edc0cdeb1f4b6a853}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_ae414a510ec5ecf2edc0cdeb1f4b6a853}} 
+\hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_ae414a510ec5ecf2edc0cdeb1f4b6a853}{Csp\+M\+New\+File\+Wizard} ()
+\begin{DoxyCompactList}\small\item\em Constructor for New\+Csp\+File\+Wizard. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_a8f768f91606a656c10398eeba7f37c30}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_a8f768f91606a656c10398eeba7f37c30}} 
+void \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_a8f768f91606a656c10398eeba7f37c30}{add\+Pages} ()
+\begin{DoxyCompactList}\small\item\em Adding the page to the wizard. \end{DoxyCompactList}\item 
+boolean \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_a83fd26a7b1d353930d84a355aa267dfd}{perform\+Finish} ()
+\begin{DoxyCompactList}\small\item\em This method is called when \textquotesingle{}Finish\textquotesingle{} button is pressed in the wizard. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_a0ec12d138963ca85e6f709a5e45eeb81}{init} (I\+Workbench workbench, I\+Structured\+Selection selection)
+\begin{DoxyCompactList}\small\item\em We will accept the selection in the workbench to see if we can initialize from it. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is a sample new wizard. 
+
+Its role is to create a new file resource in the provided container. If the container resource (a folder or a project) is selected in the workspace when the wizard is opened, it will accept it as the target container. The wizard creates one file with the extension \char`\"{}mpe\char`\"{}. If a sample multi-\/page editor (also available as a template) is registered for the same extension, it will be able to open it. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_a0ec12d138963ca85e6f709a5e45eeb81}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_a0ec12d138963ca85e6f709a5e45eeb81}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::wizards\+::\+Csp\+M\+New\+File\+Wizard@{com\+::fware\+::cspdt\+::cspm\+::editor\+::wizards\+::\+Csp\+M\+New\+File\+Wizard}!init@{init}}
+\index{init@{init}!com\+::fware\+::cspdt\+::cspm\+::editor\+::wizards\+::\+Csp\+M\+New\+File\+Wizard@{com\+::fware\+::cspdt\+::cspm\+::editor\+::wizards\+::\+Csp\+M\+New\+File\+Wizard}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void com.\+fware.\+cspdt.\+cspm.\+editor.\+wizards.\+Csp\+M\+New\+File\+Wizard.\+init (\begin{DoxyParamCaption}\item[{I\+Workbench}]{workbench,  }\item[{I\+Structured\+Selection}]{selection }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+We will accept the selection in the workbench to see if we can initialize from it. 
+
+\begin{DoxySeeAlso}{See also}
+I\+Workbench\+Wizard\+::init(\+I\+Workbench, I\+Structured\+Selection) 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_a83fd26a7b1d353930d84a355aa267dfd}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1wizards_1_1_csp_m_new_file_wizard_a83fd26a7b1d353930d84a355aa267dfd}} 
+\index{com\+::fware\+::cspdt\+::cspm\+::editor\+::wizards\+::\+Csp\+M\+New\+File\+Wizard@{com\+::fware\+::cspdt\+::cspm\+::editor\+::wizards\+::\+Csp\+M\+New\+File\+Wizard}!perform\+Finish@{perform\+Finish}}
+\index{perform\+Finish@{perform\+Finish}!com\+::fware\+::cspdt\+::cspm\+::editor\+::wizards\+::\+Csp\+M\+New\+File\+Wizard@{com\+::fware\+::cspdt\+::cspm\+::editor\+::wizards\+::\+Csp\+M\+New\+File\+Wizard}}
+\subsubsection{\texorpdfstring{perform\+Finish()}{performFinish()}}
+{\footnotesize\ttfamily boolean com.\+fware.\+cspdt.\+cspm.\+editor.\+wizards.\+Csp\+M\+New\+File\+Wizard.\+perform\+Finish (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+This method is called when \textquotesingle{}Finish\textquotesingle{} button is pressed in the wizard. 
+
+We will create an operation and run it using wizard as execution context. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+E\+V\+A/\+Downloads/eclipse/workspace/cspdt/com.\+fware.\+cspdt.\+cspm.\+editor/src/com/fware/cspdt/cspm/editor/wizards/Csp\+M\+New\+File\+Wizard.\+java\end{DoxyCompactItemize}

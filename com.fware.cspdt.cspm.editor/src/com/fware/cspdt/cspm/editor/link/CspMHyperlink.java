@@ -7,7 +7,17 @@ import org.eclipse.jface.text.hyperlink.IHyperlink;
 
 import com.fware.cspdt.cspm.core.model.CspMRef;
 import com.fware.cspdt.cspm.editor.CspMEditor;
-
+/**
+ * Esta classe define regioes de texto clicaveis que funcionam como link.
+ * 
+ * Ele utiliza os mapeamentos do CspMRef para encontrar a definicao
+ * e abre o documento que possui aquela definicao.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMHyperlink implements IHyperlink {
 
 	private CspMRef definitionRef;

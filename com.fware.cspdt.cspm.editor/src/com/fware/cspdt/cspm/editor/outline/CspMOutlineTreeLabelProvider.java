@@ -15,7 +15,14 @@ import org.eclipse.jface.viewers.TreeNode;
 import org.eclipse.swt.graphics.Image;
 
 import com.fware.cspdt.cspm.editor.CspMEditorPlugin;
-
+/**
+ * Esta classe faz a atribuicao de rotulos aos nos da arvore.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 class CspMOutlineTreeLabelProvider extends LabelProvider {
 
 	@Override
