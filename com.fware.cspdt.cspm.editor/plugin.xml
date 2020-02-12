@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="CSPM Editor"
+            extensions="cspm"
+            icon="icons/csp.png"
+            contributorClass="com.fware.cspdt.cspm.editor.CspMFileEditorContributor"
+            class="com.fware.cspdt.cspm.editor.CspMEditor"
+            id="CspFileEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors.documentProviders"> 
+      <provider
+            extensions="cspm"
+            class="com.fware.cspdt.cspm.editor.CspMDocumentProvider"
+            id="CspMDocumentProvider">
+      </provider> 
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+      		category="CspMPreferences"
+            class="com.fware.cspdt.cspm.editor.preferences.CspMEditorPreferencePage"
+            id="CspMEditorPreferencePage"
+            name="CSPM">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="com.fware.cspdt.cspm.editor.preferences.CspMEditorPreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="CspMWizards"
+            name="CSPM Wizards" />
+      <wizard
+            name="CSPM File"
+            icon="icons/csp.png"
+            category="CspMWizards"
+            class="com.fware.cspdt.cspm.editor.wizards.CspMNewFileWizard"
+            id="NewCspFileWizard">
+      </wizard>
+      <wizard
+            name="CSPM Project"
+            icon="icons/csp.png"
+            category="CspMWizards"
+            class="com.fware.cspdt.cspm.editor.wizards.CspMNewProjectWizard"
+            id="CspMNewProjectWizard">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="CspMViews"
+            name="CSPM Views"/>
+      <view
+            category="CspMViews"
+            class="com.fware.cspdt.cspm.editor.views.CspMAstViewPage"
+            icon="icons/csp.png"
+            id="CspMAstView"
+            name="CSPM AST view"/>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="html/toc.xml"
+            primary="true"/>
+      <toc file="html/concepts/tocconcepts.xml"/>
+      <toc file="html/gettingstarted/tocgettingstarted.xml"/>
+      <toc file="html/reference/tocreference.xml"/>
+      <toc file="html/samples/tocsamples.xml"/>
+      <toc file="html/tasks/toctasks.xml"/>
+   </extension>
+
+</plugin>
