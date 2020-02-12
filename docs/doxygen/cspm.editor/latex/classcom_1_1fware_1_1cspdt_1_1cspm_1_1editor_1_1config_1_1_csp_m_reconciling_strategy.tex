@@ -1,0 +1,59 @@
+\hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy}{}\section{com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Csp\+M\+Reconciling\+Strategy Class Reference}
+\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy}\index{com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Csp\+M\+Reconciling\+Strategy@{com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Csp\+M\+Reconciling\+Strategy}}
+
+
+Esta classe cria uma estrategia de acao para a representacao do texto na presenca de mudancas no codigo C\+S\+PM.  
+
+
+Inheritance diagram for com.\+fware.\+cspdt.\+cspm.\+editor.\+config.\+Csp\+M\+Reconciling\+Strategy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a35bf14074f25f727296be20ab8010cd6}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a35bf14074f25f727296be20ab8010cd6}} 
+{\bfseries Csp\+M\+Reconciling\+Strategy} (\hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor}{Csp\+M\+Editor} editor)
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a87671e3d5dff3a07593d019cc9e245e2}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a87671e3d5dff3a07593d019cc9e245e2}} 
+\hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1_csp_m_editor}{Csp\+M\+Editor} {\bfseries get\+Editor} ()
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a267f60e0239f81a1e437a5e764a57095}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a267f60e0239f81a1e437a5e764a57095}} 
+void \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a267f60e0239f81a1e437a5e764a57095}{initial\+Reconcile} ()
+\begin{DoxyCompactList}\small\item\em Verifica inicio e fim da mudanca no texto. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a6663cb7417bfabd1fd01f464643cc78c}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a6663cb7417bfabd1fd01f464643cc78c}} 
+void {\bfseries set\+Document} (I\+Document document)
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_aac7acad99cc16f8a73a17f8df51a1f33}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_aac7acad99cc16f8a73a17f8df51a1f33}} 
+void {\bfseries reconcile} (Dirty\+Region arg0, I\+Region arg1)
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a08c2583e9e001d367c0e30f5208d6904}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a08c2583e9e001d367c0e30f5208d6904}} 
+void {\bfseries reconcile} (I\+Region arg0)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a32d28514e5f49b442eb48dfa3657abae}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a32d28514e5f49b442eb48dfa3657abae}} 
+final List$<$ Position $>$ \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_a32d28514e5f49b442eb48dfa3657abae}{f\+Positions} = new Array\+List$<$Position$>$()
+\begin{DoxyCompactList}\small\item\em holds the calculated positions \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_afa451850691ae557a816cc5bd5d76d1a}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_afa451850691ae557a816cc5bd5d76d1a}} 
+int \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_afa451850691ae557a816cc5bd5d76d1a}{f\+Offset}
+\begin{DoxyCompactList}\small\item\em The offset of the next character to be read. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_af52adef988902c51cc4054d2ad46911a}\label{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_af52adef988902c51cc4054d2ad46911a}} 
+int \hyperlink{classcom_1_1fware_1_1cspdt_1_1cspm_1_1editor_1_1config_1_1_csp_m_reconciling_strategy_af52adef988902c51cc4054d2ad46911a}{f\+Range\+End}
+\begin{DoxyCompactList}\small\item\em The end offset of the range to be scanned. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Esta classe cria uma estrategia de acao para a representacao do texto na presenca de mudancas no codigo C\+S\+PM. 
+
+\begin{DoxyAuthor}{Author}
+A\+L\+V\+A\+RO, E\+V\+E\+R\+A\+L\+DA, F\+E\+L\+I\+PE, J\+O\+N\+A\+T\+H\+AN, J\+U\+V\+E\+N\+AL 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+E\+V\+A/\+Downloads/eclipse/workspace/cspdt/com.\+fware.\+cspdt.\+cspm.\+editor/src/com/fware/cspdt/cspm/editor/config/Csp\+M\+Reconciling\+Strategy.\+java\end{DoxyCompactItemize}

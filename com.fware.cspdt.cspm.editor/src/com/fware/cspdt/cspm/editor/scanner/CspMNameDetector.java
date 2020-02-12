@@ -1,7 +1,11 @@
 package com.fware.cspdt.cspm.editor.scanner;
 
 import org.eclipse.jface.text.rules.IWordDetector;
-
+/**
+ * Esta classe detecta aos nomes dos processos da linguagem CSPM.
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public class CspMNameDetector implements IWordDetector {
 
 	public boolean isWordStart(char c) {

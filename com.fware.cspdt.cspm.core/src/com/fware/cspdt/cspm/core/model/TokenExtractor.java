@@ -4,8 +4,10 @@ import lmf.formula.csp.analysis.ExtendedDepthFirstAdapter;
 import lmf.formula.csp.node.Node;
 import lmf.formula.csp.node.Token;
 
+/**
+ * Classe que extrai tokens da ast
+ */
 public class TokenExtractor extends ExtendedDepthFirstAdapter {
-
 	private Token firstToken;
 	private Token lastToken;
 

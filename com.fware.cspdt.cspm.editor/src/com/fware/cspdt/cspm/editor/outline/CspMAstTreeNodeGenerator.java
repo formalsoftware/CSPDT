@@ -32,7 +32,8 @@ import com.fware.cspdt.cspm.core.model.TokenExtractor;
 
 /**
  * CspMAstTreeNodeGenerator.
- * 
+ * Nesta classe percorre toda a AST gerada, acessando todos
+ * os nos e atribuindo um determinado tipo a cada um deles.
  * @author Joabe Jesus (jbjj@cin.ufpe.br)
  */
 public class CspMAstTreeNodeGenerator extends ExtendedDepthFirstAdapter {

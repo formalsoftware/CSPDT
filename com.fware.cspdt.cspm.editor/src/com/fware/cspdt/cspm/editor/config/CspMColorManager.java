@@ -6,7 +6,12 @@ import java.util.Map;
 import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.graphics.RGB;
 import org.eclipse.swt.widgets.Display;
-
+/**
+ * Esta classe mapea cores RGB para o tipo de cor utilizado pelo Eclipse.
+ * 
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ *
+ */
 public final class CspMColorManager {
 
 	private Map<RGB, Color> fColorTable = new HashMap<RGB, Color>(10);

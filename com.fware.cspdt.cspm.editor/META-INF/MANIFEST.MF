@@ -1,12 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: CSPDT Editor Plug-in
+Bundle-Name: Editor
 Bundle-SymbolicName: com.fware.cspdt.cspm.editor;singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.fware.cspdt.cspm.editor.CspMEditorPlugin
-Bundle-ActivationPolicy: lazy
-Bundle-Vendor: FormalWare
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.core.resources,
@@ -17,6 +14,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.ui.views,
  org.eclipse.platform,
  com.fware.cspdt.cspm.core;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: lmf.formula.csp.analysis,
  lmf.formula.csp.lexer,
  lmf.formula.csp.node,
@@ -27,3 +25,4 @@ Import-Package: lmf.formula.csp.analysis,
  lmf.formula.csp.type,
  lmf.formula.csp.util,
  lmf.formula.csp.value
+Bundle-ActivationPolicy: lazy
