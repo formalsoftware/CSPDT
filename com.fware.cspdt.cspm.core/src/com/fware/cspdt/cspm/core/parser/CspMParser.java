@@ -17,29 +17,32 @@ import lmf.formula.csp.parser.ParserException;
 import lmf.formula.csp.semantic.CspAnalyserListener;
 import lmf.formula.csp.semantic.CspContextualAnalyser;
 import lmf.formula.csp.semantic.exception.CspAnalyserException;
-	/**
-	 * Uma classe para usar a analise lexica e sintatica do codigo CSP
-	 * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
-	 *
-	 */
+
+/**
+ * Classe responsável pela análise léxica e sintática de um arquivo CSP.
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ */
 public class CspMParser {
 
 	private CspMModel info;
 
 	/**
-	 * Metodo para analise do codigo.
+	 * Método para análise do arquivo CSP.
 	 * 
-	 * Caso o arquivo ja tenha sido processado, retorna o modelo gerado na analise.
-	 * Caso contrario, ele analisa o codigo e gera o modelo para retornar.
+	 * Caso o arquivo ja tenha sido processado, retorna o modelo gerado na análise.
+	 * Caso contrário, ele analisa o código e gera o modelo para retornar.
 	 * 
 	 * @param file arquivo contendo o codigo
 	 * @param analyser um listener para coletar erros
 	 * 
 	 * @return o modelo de dados gerado
 	 * 
-	 * @throws CspMParserException caso ocorra algum erro sintatico
+	 * @throws CspMParserException caso ocorra algum erro sintático
 	 *   
-	 * @throws CspAnalyserException caso ocorra algum erro lexico
+	 * @throws CspAnalyserException caso ocorra algum erro léxico
 	 */
 	public CspMModel getInfo(IFile file, CspAnalyserListener analyser) throws CspMParserException, CspAnalyserException {
     	if (info == null) {
@@ -48,10 +51,11 @@ public class CspMParser {
     	
 		return info;
 	}
+
 	/**
-	 * Metodo para analise do arquivo
+	 * Método para análise do arquivo CSP
 	 * 
-	 * @param file arquivo contendo o codigo
+	 * @param file arquivo contendo o código CSP
 	 * @param listener um listener para coletar erros
 	 * @param stopOnError
 	 * @param debugging

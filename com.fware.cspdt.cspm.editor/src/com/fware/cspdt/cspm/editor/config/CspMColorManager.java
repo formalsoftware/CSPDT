@@ -9,6 +9,8 @@ import org.eclipse.swt.widgets.Display;
 /**
  * Esta classe mapea cores RGB para o tipo de cor utilizado pelo Eclipse.
  * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

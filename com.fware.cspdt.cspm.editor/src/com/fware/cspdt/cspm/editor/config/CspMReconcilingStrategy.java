@@ -14,6 +14,8 @@ import com.fware.cspdt.cspm.editor.CspMEditor;
 /**
  * Esta classe cria uma estrategia de acao para a representacao do texto na presenca de mudancas no codigo CSPM.
  * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

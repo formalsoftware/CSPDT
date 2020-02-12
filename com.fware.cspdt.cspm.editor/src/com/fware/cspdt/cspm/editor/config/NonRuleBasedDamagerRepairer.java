@@ -14,6 +14,9 @@ import org.eclipse.core.runtime.Assert;
 import org.eclipse.swt.custom.StyleRange;
 /**
  *  Esta classe e definida para aplicar a devida coloracao no texto sem precisar de regras.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

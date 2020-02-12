@@ -15,6 +15,9 @@ import com.fware.cspdt.cspm.editor.CspMEditor;
 /**
  * Esta classe define um Provider que sera responsavel pelo modelo utilizado
  * para definicao do vizualizador e tambem por propagar atualizacoes.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

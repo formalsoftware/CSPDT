@@ -19,6 +19,9 @@ import lmf.formula.csp.node.ACspSubtypeDefinition;
 import lmf.formula.csp.node.TName;
 /**
  * Esta classe pretende distinguir as referencias pelos tipos da linguagem CSPM.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

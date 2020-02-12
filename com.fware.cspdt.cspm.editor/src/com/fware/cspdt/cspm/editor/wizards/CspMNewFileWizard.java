@@ -22,8 +22,10 @@ import org.eclipse.ui.ide.IDE;
  * target container. The wizard creates one file with the extension "mpe". If a
  * sample multi-page editor (also available as a template) is registered for the
  * same extension, it will be able to open it.
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  */
-
 public class CspMNewFileWizard extends Wizard implements INewWizard {
 	private CspMNewFileWizardPage page;
 	private ISelection selection;

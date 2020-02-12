@@ -9,6 +9,9 @@ import org.eclipse.jface.text.Position;
 import org.eclipse.jface.viewers.TreeNode;
 /**
  * Esta classe representa o no da arvore da classe CspMOutlineTreeLabelProvider.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

@@ -20,7 +20,10 @@ import lmf.formula.csp.semantic.exception.CspAnalyserException;
 import lmf.formula.csp.util.CspNodeLocator;
 import lmf.formula.csp.util.Location;
 /**
- * Nesta classe contém a  configuracao da marcacao de erros no codigo.
+ * Nesta classe contï¿½m a  configuracao da marcacao de erros no codigo.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

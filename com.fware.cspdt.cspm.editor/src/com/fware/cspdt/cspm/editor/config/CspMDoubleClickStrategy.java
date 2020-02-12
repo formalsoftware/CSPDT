@@ -4,6 +4,8 @@ import org.eclipse.jface.text.*;
 /**
  * Esta classe cria uma estrategia de acao para o clique duplo no codigo CSPM.
  * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

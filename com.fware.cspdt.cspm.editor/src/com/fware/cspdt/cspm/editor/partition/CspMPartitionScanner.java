@@ -7,8 +7,12 @@ import org.eclipse.jface.text.rules.IToken;
 import org.eclipse.jface.text.rules.MultiLineRule;
 import org.eclipse.jface.text.rules.RuleBasedPartitionScanner;
 import org.eclipse.jface.text.rules.Token;
+
 /**
- * Esta classe monta a estrategia de acao para realizar o escaneamento do documento por tokens e suas particoes. 
+ * Esta classe monta a estrategia de acao para realizar o escaneamento do documento por tokens e suas particoes.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

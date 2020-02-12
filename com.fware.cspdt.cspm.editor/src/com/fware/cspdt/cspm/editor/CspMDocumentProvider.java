@@ -12,7 +12,9 @@ import com.fware.cspdt.cspm.editor.partition.CspMPartitioner;
  * no diretorio do projeto.
  * Atraves desta classe pode-se abrir o arquivo no editor realizar as edicoes
  * no seu conteudo e  monitorar todas as modificoes feitas desde seu carregamento.
- * 
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques 
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

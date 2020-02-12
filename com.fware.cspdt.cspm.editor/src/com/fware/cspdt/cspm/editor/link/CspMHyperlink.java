@@ -13,6 +13,8 @@ import com.fware.cspdt.cspm.editor.CspMEditor;
  * Ele utiliza os mapeamentos do CspMRef para encontrar a definicao
  * e abre o documento que possui aquela definicao.
  * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

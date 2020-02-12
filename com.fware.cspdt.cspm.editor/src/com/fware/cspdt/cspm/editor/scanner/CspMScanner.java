@@ -16,8 +16,12 @@ import com.fware.cspdt.cspm.editor.CspMEditorPlugin;
 import com.fware.cspdt.cspm.editor.config.CspMColorManager;
 import com.fware.cspdt.cspm.editor.config.Keywords;
 import com.fware.cspdt.cspm.editor.preferences.CspMEditorPreferenceConstants;
+
 /**
  * Nesta classe sao definidas as palavras chaves do CSPM.
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

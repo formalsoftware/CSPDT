@@ -1,9 +1,11 @@
 package com.fware.cspdt.cspm.core.parser;
 
 /**
- * Excecao disparada quando a analise sintatica de um no na ast falha
- * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
+ * Exceção disparada quando a análise sintática falha.
  *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  */
 public class CspMParserException extends Exception {
 	
@@ -13,7 +15,7 @@ public class CspMParserException extends Exception {
 	private String token;
 
 	/**
-	 * Contrutor Padrao
+	 * Construtor Padrão
 	 * 
 	 * @param message A mensagem de erro
 	 * @param Token O token que gerou o erro

@@ -21,6 +21,9 @@ import com.fware.cspdt.cspm.editor.CspMEditor;
 import com.fware.cspdt.cspm.editor.link.CspMRefExtractor;
 /**
  * Esta classe define as acoes de auto complete.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

@@ -40,7 +40,7 @@ import lmf.formula.csp.semantic.exception.CspAnalyserException;
 /**
  * Editor de texto para o CSPM.
  * 
- * Descreve o ambiente onde os codigos CSMP serao escritos
+ * Descreve o ambiente onde os codigos CSPM serao escritos
  * 
  * @author Joabe Jesus (jbjj@cin.ufpe.br)
  */

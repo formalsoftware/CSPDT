@@ -5,6 +5,9 @@ import org.eclipse.jface.text.rules.FastPartitioner;
 import com.fware.cspdt.cspm.editor.CspMEditor;
 /**
  * Classe que apresenta os recurso de particionamento do codigo CSPM.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

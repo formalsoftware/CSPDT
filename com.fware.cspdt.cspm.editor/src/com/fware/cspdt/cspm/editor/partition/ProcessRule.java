@@ -4,6 +4,10 @@ import org.eclipse.jface.text.rules.ICharacterScanner;
 import org.eclipse.jface.text.rules.IPredicateRule;
 import org.eclipse.jface.text.rules.IToken;
 
+/**
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
+ */
 public class ProcessRule implements IPredicateRule {
 
 	public ProcessRule(IToken processToken) {

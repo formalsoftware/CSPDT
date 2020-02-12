@@ -16,6 +16,9 @@ import org.eclipse.ui.ide.IDE;
 /**
  * Manages the installation/deinstallation of global actions for CSP editor.
  * Responsible for the redirection of global actions to the active editor.
+ *
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  */
 public class CspMFileEditorContributor extends TextEditorActionContributor {
 

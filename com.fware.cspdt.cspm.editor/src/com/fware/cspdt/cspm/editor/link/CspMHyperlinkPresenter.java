@@ -17,7 +17,9 @@ import com.fware.cspdt.cspm.editor.CspMEditor;
  * Nesta classe serao configuradas as caracteristicas do browsing.
  * 
  *  Entre estas caracteristicas estao a delimitacao e sublinhamento da regiao que foi clicada.
- *  
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */

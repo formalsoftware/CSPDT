@@ -2,7 +2,10 @@ package com.fware.cspdt.cspm.editor.config;
 
 import org.eclipse.swt.graphics.RGB;
 /**
- * enumeracao das cores da sintaxe highlight
+ * enumeracao das cores da sintaxe highlight.
+ * 
+ * @author Joabe Jesus
+ * @author Victor Vilmarques
  * @author ALVARO, EVERALDA, FELIPE, JONATHAN, JUVENAL
  *
  */
